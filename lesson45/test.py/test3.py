@@ -1,10 +1,14 @@
-print('Hello ')
+check = int(input('Сколько стоит товар: '))
+summ = 0
 
-print('Hello')
+for sym in(2, check):
+    check /= 2
+    summ += check
+    print('Hello', summ)
 
 print('Blbjn')
 
 print('Hello ')
 
-print('Hello my friend')
+print('Hello gleb')
 
